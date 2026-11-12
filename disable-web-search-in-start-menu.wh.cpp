@@ -2,7 +2,7 @@
 // @id              disable-web-search-in-start-menu
 // @name            Disable Web Search in Start Menu
 // @description     Keeps the Start menu and taskbar search local by hiding web results and web suggestions
-// @version         1.1.0
+// @version         1.0.0
 // @author          DpakB
 // @homepage        https://dpakb.com
 // @github          https://github.com/DeepakBalaraman
