@@ -4,6 +4,8 @@ Keeps the Start menu and the search flyout local. Web results, Bing suggestions
 and the "search the web" row stop showing up, and everything else about search
 keeps working.
 
+![Before & After](https://raw.githubusercontent.com/DeepakBalaraman/disable-web-search-in-start-menu/master/assets/before-after.jpg)
+
 Windows already has policies for this, but they are read when the search UI
 starts, so applying them means a reboot, and the registry entries stay behind
 afterwards. This mod answers those policy reads from inside the search UI
