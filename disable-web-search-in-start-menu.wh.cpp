@@ -628,7 +628,7 @@ bool HookOne(T target, T hook, T* original, PCWSTR moduleName, PCWSTR name) {
         return false;
     }
 
-    if (!WindhawkUtils::Wh_SetFunctionHookT(target, hook, original)) {
+    if (!WindhawkUtils::SetFunctionHook(target, hook, original)) {
         Wh_Log(L"Couldn't hook %s!%s", moduleName, name);
         return false;
     }
